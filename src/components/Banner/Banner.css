@@ -1,0 +1,39 @@
+.banner-container {
+    background-color: #ffffff;
+    padding: 100px 50px;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .banner-title {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .banner-description {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #362b2b;
+  }
+  
+  .banner-button {
+    font-size: 1.2rem;
+    border-radius: 30px;
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFFFFF;
+    color: #F9A451;
+  }
+  
+  .banner-button:hover {
+    transform: scale(1.1);
+    background-color: #F9A451;
+    color: #FFFFFF;
+  }

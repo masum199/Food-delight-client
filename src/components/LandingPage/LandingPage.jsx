@@ -1,9 +1,17 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Chief from '../Chief/Chief';
+
+import WhyChoseUs from '../PersonalSection/WhyChoseUs';
+import SpecialMenu from '../SpecialMenu/SpecialMenu';
 
 const LandingPage = () => {
     return (
         <div>
-            <h2>landingpage</h2>
+        <Banner></Banner>
+        <Chief></Chief>
+        <SpecialMenu></SpecialMenu>
+        <WhyChoseUs></WhyChoseUs>
         </div>
     );
 };

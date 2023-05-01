@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import user from '../../assets/user.png.jpg'
 
@@ -19,7 +19,8 @@ const NavBar = () => {
                                 <Link to="/register">Register</Link>
                             </Nav>
                             <Nav>
-                                <Nav.Link href="#pricing">Career</Nav.Link>
+                            <Button variant="danger"><Link to="/login">Login</Link></Button>
+                              
                                 <img style={{width:'25px'}} src={user} alt="" />
 
                             </Nav>
