@@ -10,10 +10,10 @@ const SpecialMenu = () => {
     return (
         <div>
             <div className='text-center'>
-                <h1 className='font'>Our Special Menu</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br /> elit. Sequi, accusamus.</p>
-            </div>
-            <div className='fw-bold'>
+    <h1 className='display-1 fw-bold'>Our Special Menu</h1>
+    <p className='my-4 fw-bold'>Welcome to our restaurant! We offer a variety of delicious and healthy dishes made with fresh, locally-sourced ingredients. Whether you're in the mood for a hearty meal or a light snack, we have something for everyone. Come dine with us and experience the best food in town!</p>
+</div>
+            <div className='fw-bold my-4'>
             <Marquee behavior="" direction="left" speed={100}>
             <Button className='ms-5 btn-m' variant="light">All</Button>
             <Button className='ms-5 btn-m' variant="light">Spacial Food</Button>
