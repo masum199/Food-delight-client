@@ -1,19 +1,42 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import AuthProvider, { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Register = () => {
+    const {createUser} = useContext(AuthContext)
+
+    const handleRegister = event =>{
+        event.preventDefault();
+        const form = event.target;
+        const name = form.name.value;
+        const photo = form.photo.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(name, photo, email, password);
+
+        createUser(email,password)
+        .then(result =>{
+            const createdUser = result.user
+            createdUser.displayName=name
+            createdUser.photoURL=photo
+            console.log(createdUser);
+        })
+        .catch(error =>{
+            console.log(error);
+        })
+    }
     return (
         <Container className='w-25 mx-auto'>
         <h3>please Register</h3>
-        <Form>
+        <Form onSubmit={handleRegister}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>name</Form.Label>
                 <Form.Control type="text" name='name' placeholder="enter your name" required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Photo Url</Form.Label>
-                <Form.Control type="text" name='Photo' placeholder="Enter Photo url" required/>
+                <Form.Control type="text" name='photo' placeholder="Enter Photo url" required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -24,12 +47,7 @@ const Register = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" name='password' placeholder="Password" required />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check 
-                type="checkbox" 
-                name="accept" 
-                label="accept" />
-            </Form.Group>
+          
             <Button variant="primary" type="submit">
                register
             </Button>

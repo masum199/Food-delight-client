@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaGoogle, FaGithub } from 'react-icons/fa';
 import './Login.css'
+import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Login = () => {
+const {user,signIn} = useContext(AuthContext)
+
+const handleSignIn = event =>{
+  event.preventDefault()
+  const form = event.target
+  const email = form.email.value
+  const password = form.password.value
+  signIn(email, password)
+  .then(result =>{
+   const loggedIn = result.user
+   console.log(loggedIn)
+  })
+  .catch(error =>{
+    console.log(error)
+  })
+
+}
+
   return (
     <div  className=' d-flex gap-5 container w-50'>
-      <Form  className='form-login p-5'>
+      <Form onSubmit={handleSignIn}  className='form-login p-5'>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" name='email' placeholder="Enter email" required />
