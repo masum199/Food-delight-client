@@ -21,8 +21,10 @@ const NavBar = () => {
                             </Nav>
                             <Nav>
                                 <Button variant="danger" className="nav-button"><Link to="/login" className="nav-link">Login</Link></Button>
-                                <img src={user} alt="" className="nav-user" />
+
+                                
                             </Nav>
+                            <img src={user} alt="" className="nav-user" />
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

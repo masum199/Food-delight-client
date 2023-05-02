@@ -6,7 +6,7 @@ import './Login.css'
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Login = () => {
-const {user,signIn} = useContext(AuthContext)
+const {user,signIn,googleLogin , githubLogin} = useContext(AuthContext)
 
 const handleSignIn = event =>{
   event.preventDefault()
@@ -21,7 +21,29 @@ const handleSignIn = event =>{
   .catch(error =>{
     console.log(error)
   })
+}
 
+const handleGoogleLogin =() =>{
+ 
+  googleLogin()
+ .then(result =>{
+    const loggedIn = result.user
+    console.log(loggedIn)
+  })
+  .catch(error =>{
+    console.log(error)
+  })
+ 
+}
+const handleGitLogIn = () =>{
+  githubLogin()
+  .then(result =>{
+    const loggedIn = result.user
+    console.log(loggedIn)
+  })
+  .catch(error =>{
+    console.log(error)
+  })
 }
 
   return (
@@ -37,7 +59,7 @@ const handleSignIn = event =>{
           <Form.Control type="password" name='password' placeholder="Password" required />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary w-100" type="submit">
           Login
         </Button>
         <br />
@@ -50,10 +72,10 @@ const handleSignIn = event =>{
         </Form.Text>
       </Form>
       <div className='p-5 login-button'>
-        <h2>please login</h2>
-        <Button className='mt-3 w-100' variant="secondary"><FaGoogle /> Login with Google</Button>
+        <h2>Or Login</h2>
+        <Button onClick={handleGoogleLogin} className='mt-3 w-100' variant="secondary"><FaGoogle /> Login with Google</Button>
         <br />
-        <Button className='mt-3 w-100' variant="secondary"><FaGithub /> Login with Github</Button>
+        <Button onClick={handleGitLogIn} className='mt-3 w-100' variant="secondary"><FaGithub /> Login with Github</Button>
       </div>
     </div>
   );
