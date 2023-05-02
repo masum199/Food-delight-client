@@ -15,6 +15,7 @@ import Login from './components/User/Login/Login';
 import Register from './components/User/Register/Register';
 import App from './App';
 import AuthProvider from './components/AuthProvider/AuthProvider';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -36,9 +37,16 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element:<Register></Register>
-      }
+      }, 
     ]
-  }
+  },
+  
+    {
+      path:'/*',
+      element:<ErrorPage></ErrorPage>
+
+    }
+  
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
 

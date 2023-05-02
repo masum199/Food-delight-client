@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import user from '../../assets/user.png.jpg';
 import './NavBar.css';
+import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext)
+
+    console.log(user)
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(err => console.log(err))
+    }
     return (
         <div>
             <Container>
@@ -16,15 +25,19 @@ const NavBar = () => {
                             <Nav className="mx-auto gap-4">
                                 <Link to="/" className="nav-link">Home</Link>
                                 <Link to="/blog" className="nav-link">Blog</Link>
-                                <Link to="/login" className="nav-link">Login</Link>
-                                <Link to="/register" className="nav-link">Register</Link>
                             </Nav>
                             <Nav>
-                                <Button variant="danger" className="nav-button"><Link to="/login" className="nav-link">Login</Link></Button>
-
-                                
+                                {user ?
+                                    <>
+                                        <img className='nav-user' src={user?.photoURL} alt="" title={user?.displayName} />
+                                        <Button onClick={handleLogOut} variant="secondary">LogOut</Button>
+                                    </> :
+                                    <Link to='/login'>
+                                        <Button variant="secondary">LogIn</Button>
+                                    </Link>
+                                }
                             </Nav>
-                            <img src={user} alt="" className="nav-user" />
+
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

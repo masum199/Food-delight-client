@@ -66,13 +66,10 @@ const handleGitLogIn = () =>{
         <Form.Text className="text-secondary">
           Don't have an account?<Link to="/register">Register</Link>
         </Form.Text>
-        <Form.Text className="text-success">
-        </Form.Text>
-        <Form.Text className="text-danger">
-        </Form.Text>
       </Form>
       <div className='p-5 login-button'>
         <h2>Or Login</h2>
+        <p>Login to get access to the chief <br />best recipes</p>
         <Button onClick={handleGoogleLogin} className='mt-3 w-100' variant="secondary"><FaGoogle /> Login with Google</Button>
         <br />
         <Button onClick={handleGitLogIn} className='mt-3 w-100' variant="secondary"><FaGithub /> Login with Github</Button>
