@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1",
+    "chief_name": "Gordon Ramsay",
+    "chief_image": "https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
+    "years_of_experience": "7 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 2K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "chief_name": "Akio Nikalo",
+    "chief_image": "https://img.freepik.com/free-photo/cook-uniform-holding-salad-showing-okay-gesture_171337-5345.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
+    "years_of_experience":"5 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 1.5K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "chief_name": "Kofi Biller",
+    "chief_image": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
+    "years_of_experience": "9 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 4K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "chief_name": "Dilton Malik",
+    "chief_image": "https://img.freepik.com/free-photo/chef-cooking-fresh-vegetable-salad-his-kitchen_155003-3285.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
+    "years_of_experience": "6 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 1K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "chief_name": "Nohel Miller",
+    "chief_image": "https://img.freepik.com/free-photo/cook-putting-spinach-plate-with-salad_23-2148040245.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
+    "years_of_experience": "6 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 3K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "chief_name": "Ajey Nagar",
+    "chief_image": "https://img.freepik.com/free-photo/young-smiling-afro-american-cook-chef-uniform-crosses-arms-isolated-orange-wall_141793-33424.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
+    "years_of_experience": "2.5 years of experience",
+    "number_of_recipes": "Number of recipes : 3",
+    "likes": "Over 7K likes",
+    "recipes": [
+      {
+        "id": 1,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "recipe-image":"",
+        "recipe_name": "Beef Wellington",
+        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
+        "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
+        "rating": 4.2
+      }
+    ]
+  }
+]
