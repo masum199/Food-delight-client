@@ -2,6 +2,7 @@
   {
     "id": "1",
     "chief_name": "Gordon Ramsay",
+    "bio": "Gordon Ramsay: A British chef and restaurateur, known for his fiery  temper and no-nonsense approach to cooking. He has numerous Michelin stars and is famous for shows like Hell's Kitchen and MasterChef.",
     "chief_image": "https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
     "years_of_experience": "7 years of experience",
     "number_of_recipes": "Number of recipes : 3",
@@ -9,27 +10,27 @@
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/premium-photo/fresh-tasty-homemade-burger-wooden-table_147620-1307.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+       
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/premium-photo/uzbek-central-asia-cuisine-concept-assorted-uzbek-food-pilaf-samsa-lagman-manti-shurpa-uzbek-restaurant-concept-uzbek-food_114941-571.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2
@@ -39,6 +40,7 @@
   {
     "id": "2",
     "chief_name": "Akio Nikalo",
+    "bio": "Julia Child: An American chef and author, credited with introducing French cuisine to the American public through her cookbook Mastering the Art of French Cooking and her television show The French Chef",
     "chief_image": "https://img.freepik.com/free-photo/cook-uniform-holding-salad-showing-okay-gesture_171337-5345.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
     "years_of_experience":"5 years of experience",
     "number_of_recipes": "Number of recipes : 3",
@@ -46,27 +48,27 @@
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/premium-photo/mutton-biryani-food-photography_162831-2.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/mixed-fried-meat-with-pomegranate-sauce_140725-3461.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/premium-photo/burger-with-flying-elements_147620-1942.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.1.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2
@@ -76,6 +78,7 @@
   {
     "id": "3",
     "chief_name": "Kofi Biller",
+    "bio": "Massimo Bottura: An Italian chef and owner of Osteria Francescana in Modena, Italy. He is known for his avant-garde approach to cooking and has been awarded three Michelin stars.",
     "chief_image": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
     "years_of_experience": "9 years of experience",
     "number_of_recipes": "Number of recipes : 3",
@@ -83,27 +86,27 @@
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.1.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/premium-photo/set-meat-appetizers-with-ham-olives-herbs_636803-2931.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/spicy-fried-tubtim-fish-salad-spicy-thai-food_1150-26481.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2
@@ -113,6 +116,7 @@
   {
     "id": "4",
     "chief_name": "Dilton Malik",
+    "bio": "Alice Waters: An American chef and founder of Chez Panisse in Berkeley, California. She is a proponent of using fresh, local, and organic ingredients in her cooking, and has been a leading figure in the farm-to-table movement.",
     "chief_image": "https://img.freepik.com/free-photo/chef-cooking-fresh-vegetable-salad-his-kitchen_155003-3285.jpg?size=626&ext=jpg&ga=GA1.1.1749394288.1682968820&semt=sph",
     "years_of_experience": "6 years of experience",
     "number_of_recipes": "Number of recipes : 3",
@@ -120,27 +124,27 @@
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+       
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2
@@ -150,34 +154,35 @@
   {
     "id": "5",
     "chief_name": "Nohel Miller",
-    "chief_image": "https://img.freepik.com/free-photo/cook-putting-spinach-plate-with-salad_23-2148040245.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
+    "bio": "Heston Blumenthal: A British chef and owner of The Fat Duck in Bray, England. He is known for his innovative approach to cooking, incorporating science and technology into his dishes. He has been awarded three Michelin stars",
+    "chief_image": "https://img.freepik.com/free-photo/shot-professional-old-chef-dressed-uniform-holding-kitchen-spatula-tongs_613910-17564.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
     "years_of_experience": "6 years of experience",
     "number_of_recipes": "Number of recipes : 3",
     "likes": "Over 3K likes",
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table_181624-34062.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+       
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-psd/burger-social-media-template_505751-2889.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/top-view-delicious-trout-meal_23-2150353347.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2
@@ -187,6 +192,7 @@
   {
     "id": "6",
     "chief_name": "Ajey Nagar",
+    "bio": "Clare Smyth: A Northern Irish chef and owner of Core by Clare Smyth in London. She was the first female chef to run a three-Michelin-starred restaurant in the UK and was named the World's Best Female Chef in 2018 by the World's 50 Best Restaurants.",
     "chief_image": "https://img.freepik.com/free-photo/young-smiling-afro-american-cook-chef-uniform-crosses-arms-isolated-orange-wall_141793-33424.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
     "years_of_experience": "2.5 years of experience",
     "number_of_recipes": "Number of recipes : 3",
@@ -194,27 +200,27 @@
     "recipes": [
       {
         "id": 1,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/well-done-steak-homemade-potatoes_140725-3989.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+       
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Preheat oven to 400 degrees F. 2. Season the beef tenderloin with salt and pepper. 3. Sear the beef on all sides in a hot skillet. 4. Spread mustard on the beef. 5. Layer the prosciutto and mushrooms on top. 6. Wrap in puff pastry. 7. Brush with egg wash. 8. Bake for 35-40 minutes.",
         "rating": 4.5
       },
       {
         "id": 2,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/grilled-chicken-legs-flaming-grill-with-grilled-vegetables-with-tomatoes-potatoes-pepper-seeds-salt_1150-37782.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.2.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+       
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Crack eggs into a bowl. 2. Melt butter in a skillet. 3. Add eggs to skillet. 4. Stir constantly. 5. Season with salt and pepper. 6. Garnish with chives.",
         "rating": 3.8
       },
       {
         "id": 3,
-        "recipe-image":"",
+        "recipe_image":"https://img.freepik.com/free-photo/double-hamburger-isolated-white-background-fresh-burger-fast-food-with-beef-cream-cheese_90220-1192.jpg?size=626&ext=jpg&uid=R101282326&ga=GA1.1.1749394288.1682968820&semt=sph",
         "recipe_name": "Beef Wellington",
-        "bio": "Foods are any substances that are consumed to provide nutritional support for th",
+        
         "ingredients": "beef tenderloin,mushrooms,puff pastry,prosciutto,mustard",
         "cooking_method": "1. Cut beef into thin strips. 2. Sauté beef, onion, and mushrooms in a skillet. 3. Add sour cream. 4. Cook egg noodles according to package instructions. 5. Serve beef stroganoff over egg noodles.",
         "rating": 4.2

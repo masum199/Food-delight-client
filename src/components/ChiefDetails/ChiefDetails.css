@@ -1,0 +1,30 @@
+.chief-image{
+    width: 150px;
+    border-radius: 30px;
+}
+.background-image{
+    background-image: url('../../../public/back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.chief-info {
+    background-color: rgba(211, 189, 189, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    height: 740px;
+  }
+  
+  /* .chief-info:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    opacity: 1;
+  } */
+  .text{
+    word-wrap: break-word;
+    
+  }
+  
+  
