@@ -16,10 +16,10 @@ const handleSignIn = event =>{
   signIn(email, password)
   .then(result =>{
    const loggedIn = result.user
-
+   console.log(loggedIn)
   })
   .catch(error =>{
-  
+    console.log(error)
   })
 }
 

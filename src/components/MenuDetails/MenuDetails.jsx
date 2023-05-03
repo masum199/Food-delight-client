@@ -28,15 +28,15 @@ const MenuDetails = ({ menu }) => {
     return (
         <div className='recipie-info d-md-flex gap-5'>
             <ToastContainer />
-            <div className=''>
+            <div className='flex-grow-1'>
                 <img className='recipe-image' src={recipe_image} alt="" />
             </div>
-            <div>
+            <div className='flex-grow-2'>
                 <h2>{recipe_name}</h2>
                 <p className="coocking-method">{cooking_method}</p>
             </div>
-            <div>
-                <p><span className='fw-bold'>ingredients:</span>{ingredients}</p>
+            <div className='flex-grow-3'>
+                <h4 className='ingre-info'><span className='fw-bold '>ingredients:</span>{ingredients}</h4>
                 <div>
                     <Rating className='' placeholderRating={rating}
                         emptySymbol={<FaRegStar></FaRegStar>}

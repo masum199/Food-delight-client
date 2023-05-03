@@ -22,20 +22,24 @@ const ChiefDetails = () => {
     return (
         <div className='background-image glass-background'>
         <div className="row">
-        <div className="col-md-4">
+        <div className="">
   <div className="chief-info">
-    <div className='ms-5 ps-5 me-5 pe-5'>
-    <img className='chief-image' src={chiefs.chief_image} alt="" />
-    <h2 className='fw-bold my-4'>{chiefs.chief_name}</h2>
+    <div className='ms-5 ps-5 me-5 pe-5 d-flex align-items-center'>
+    <div>
+    <h1 className='fw-bold my-4'>{chiefs.chief_name}</h1>
     <p><FaChessKing className='fs-4'/> {chiefs.years_of_experience}</p>
     <p><FaHamburger className='fs-4'/> {chiefs.number_of_recipes}</p>
     <p><FcLike className='fs-4'/> {chiefs.likes}</p>
     <p className='text'>{chiefs.bio}</p>
     </div>
+    <div>
+   <img className='chief-image' src={chiefs.chief_image} alt="" />
+   </div>
+    </div>
   </div>
 </div> 
 
-  <div className="col-md-8">
+  <div className="">
   {menus && menus.map(menu => (
     <MenuDetails menu={menu} key={menu.id} />
   ))}
