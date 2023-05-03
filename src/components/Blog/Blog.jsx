@@ -1,11 +1,30 @@
 import React from 'react';
 import './Blog.css';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import ReactDOM from "react-dom";
+import Pdf from "react-to-pdf";
+
 
 const Blog = () => {
+const options = {
+  unit: "in",
+  format: [14, 15],
+  pageBreak: { before: "#page-break" }
+};
+  const ref = React.createRef();
   return (
     <Container className="blog-container">
-      <Row>
+
+<div className="text-center">
+<h1 className="blog-heading">Food Blogging Questions</h1>
+      <div className="pdf-container">
+        <Pdf targetRef={ref} options={options} filename="code-example.pdf">
+          {({ toPdf }) => <Button className='botton my-4' variant="success" onClick={toPdf}>Download PDF</Button>}
+        </Pdf>
+      </div>
+    </div>
+      <div ref={ref}>
+      <Row >
         <Col>
           <Card className="blog-card">
             <Card.Body>
@@ -45,6 +64,7 @@ const Blog = () => {
           </Card>
         </Col>
       </Row>
+      </div>
     </Container>
   );
 };

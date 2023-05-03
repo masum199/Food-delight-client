@@ -35,3 +35,17 @@
   .blog-card:hover .card-text {
     color: #3b3b3b;
   }
+  .pdf-container .botton {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+    width: 600px;
+  }
+  .pdf-container .botton:hover {
+    background-color: #ffffff;
+    color: #28a745;
+    border-color: #28a745;
+  }

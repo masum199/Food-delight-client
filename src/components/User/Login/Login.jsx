@@ -1,12 +1,15 @@
 import React, { useContext } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGoogle, FaGithub } from 'react-icons/fa';
 import './Login.css'
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Login = () => {
 const {user,signIn,googleLogin , githubLogin} = useContext(AuthContext)
+const navigate = useNavigate()
+const location = useLocation()
+const from = location.state?.from?.pathname || '/'
 
 const handleSignIn = event =>{
   event.preventDefault()
@@ -17,6 +20,7 @@ const handleSignIn = event =>{
   .then(result =>{
    const loggedIn = result.user
    console.log(loggedIn)
+   navigate(from)
   })
   .catch(error =>{
     console.log(error)

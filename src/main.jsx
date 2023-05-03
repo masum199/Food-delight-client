@@ -17,6 +17,7 @@ import App from './App';
 import AuthProvider from './components/AuthProvider/AuthProvider';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import ChiefDetails from './components/ChiefDetails/ChiefDetails';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/cheifdetails/:id',
-        element:<ChiefDetails></ChiefDetails>,
+        element:<PrivateRoute><ChiefDetails></ChiefDetails>,</PrivateRoute>,
         loader: ({ params }) => fetch('/data.json')
       },
       {

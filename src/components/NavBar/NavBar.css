@@ -1,10 +1,14 @@
 
-
-
-
-
-
-
+.active {
+    background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .active:hover {
+    background-position: top;
+  }
 
 .nav-user {
     height: 40px;

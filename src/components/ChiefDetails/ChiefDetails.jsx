@@ -4,6 +4,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import { FcLike } from "react-icons/fc";
 import './ChiefDetails.css'
 import MenuDetails from '../MenuDetails/MenuDetails';
+import LazyLoad from 'react-lazy-load';
 
 
 const ChiefDetails = () => {
@@ -33,7 +34,7 @@ const ChiefDetails = () => {
     <p className='text'>{chiefs.bio}</p>
     </div>
     <div>
-   <img className='chief-image' src={chiefs.chief_image} alt="" />
+   <img className='chief-image' src={chiefs.chief_image} loading='lazy' alt="" />
    </div>
     </div>
   </div>
