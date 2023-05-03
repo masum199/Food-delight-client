@@ -25,7 +25,7 @@ const NavBar = () => {
                 <Navbar expand="lg" variant="light" className="navbar">
                     <Container>
                         <Navbar.Brand className="navbar-brand fw-bold fs-2 ">
-                            Foodie Delight
+                            <span className='text-warning'>Foodie</span> <span className=''>Delight</span>
                         </Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls="responsive-navbar-nav"

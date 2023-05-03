@@ -1,48 +1,34 @@
 import React from 'react';
-import image from '../../../public/dele1.jpg'
-import './WhyChosseUs.css'
-import image2 from '../../../public/dele2.jpg'
-import image3 from '../../../public/dele3.jpg'
-import image4 from '../../../public/dele4.jpg'
-const WhyChoseUs = () => {
-    return (
-        <div>
-            <div className='container mt-5 mb-5'>
-                <div className='text-center'>
-                <h1 className='fw-bold'>Why chose us</h1>
-                <p>We strive to provide our customers with the best possible experience.
-            Our services are unmatched.</p>
-                </div>
-                <div className='bg-warning'>
-                <div className='d-md-flex gap-5 container p-4'>
-                    <div>
-                    <img className="deleImage img-fluid" src={image} alt="" />
-                    </div>
-                    <div className='ps-5'>
-                    <div>
-                        <img className='delevery-image1' src={image2} alt="" />
-                        <h4>Fastest Delivery</h4>
-                        <p>Our delivery service is quick and efficient, ensuring that your
-                  food arrives hot and fresh.</p>
-                    </div>
-                    <div>
-                        <img className='delevery-image1' src={image3} alt="" />
-                        <h4>Delicious Taste</h4>
-                        <p> Our chefs use the freshest ingredients to create mouth-watering
-                  dishes that are sure to please your taste buds.</p>
-                    </div>
-                    <div>
-                        <img className='delevery-image1' src={image4} alt="" />
-                        <h4>Easy to Order</h4>
-                        <p> Our online ordering system is user-friendly and simple to use,
-                  making it easy for you to place your order in just a few clicks.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
+import './WhyChosseUs.css';
+
+const WhyChooseUs = () => {
+  return (
+    <div className='why-choose-us-container my-5'>
+      <div className='why-choose-us-header'>
+        <h1 className='why-choose-us-heading'>Why Choose Us</h1>
+        <p className='why-choose-us-subheading'>We strive to provide our customers with the best possible experience. Our services are unmatched.</p>
+      </div>
+      <div className='why-choose-us-row'>
+        <div className='why-choose-us-col why-choose-us-image-col'>
+          <img className='why-choose-us-image' src='https://cdn.pixabay.com/photo/2018/05/15/09/01/foodora-3402507__340.jpg' alt='' />
         </div>
-    );
+        <div className='why-choose-us-col why-choose-us-info-col'>
+          <div className='why-choose-us-info why-choose-us-fastest-delivery'>
+            <h2 className='why-choose-us-info-heading'>Fastest Delivery</h2>
+            <p className='why-choose-us-info-text'>Our delivery service is quick and efficient, ensuring that your food arrives hot and fresh.</p>
+          </div>
+          <div className='why-choose-us-info why-choose-us-delicious-taste'>
+            <h2 className='why-choose-us-info-heading'>Delicious Taste</h2>
+            <p className='why-choose-us-info-text'>Our chefs use the freshest ingredients to create mouth-watering dishes that are sure to please your taste buds.</p>
+          </div>
+          <div className='why-choose-us-info why-choose-us-easy-to-order'>
+            <h2 className='why-choose-us-info-heading'>Easy to Order</h2>
+            <p className='why-choose-us-info-text'>Our online ordering system is user-friendly and simple to use, making it easy for you to place your order in just a few clicks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
-export default WhyChoseUs;
+export default WhyChooseUs;

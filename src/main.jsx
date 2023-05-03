@@ -27,12 +27,12 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<LandingPage></LandingPage>,
-        loader:()=>fetch('/data.json')
+        loader:()=>fetch('http://localhost:5000/chefData')
       },
       {
         path:'/cheifdetails/:id',
         element:<PrivateRoute><ChiefDetails></ChiefDetails>,</PrivateRoute>,
-        loader: ({ params }) => fetch('/data.json')
+        loader: ({ params }) => fetch('http://localhost:5000/chefData')
       },
       {
         path:'/blog',
