@@ -27,12 +27,12 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<LandingPage></LandingPage>,
-        loader:()=>fetch('http://localhost:5000/chefData')
+        loader:()=>fetch('https://10th-assignment-server-selfish199.vercel.app/chefData')
       },
       {
         path:'/cheifdetails/:id',
         element:<PrivateRoute><ChiefDetails></ChiefDetails>,</PrivateRoute>,
-        loader: ({ params }) => fetch('http://localhost:5000/chefData')
+        loader: ({ params }) => fetch('https://10th-assignment-server-selfish199.vercel.app/chefData')
       },
       {
         path:'/blog',
