@@ -70,16 +70,6 @@ const Register = () => {
            })
            .then(result=>{
             console.log(result)
-            toast('Your Account Created SuccessFully!!!', {
-                position: "top-center",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-                });
            })
            .catch(err=>{
             console.log('Error creating user',err)
@@ -87,18 +77,7 @@ const Register = () => {
             
         })
         .catch(error =>{
-            console.log(error.message);
-            toast.error(error.message,{
-                position: "top-center",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "dark",
-              });
-            
+            console.log(error.message)
         })
     }
     return (

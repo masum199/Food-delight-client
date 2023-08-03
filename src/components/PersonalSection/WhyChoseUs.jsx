@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
       </div>
       <div className='why-choose-us-row'>
         <div className='why-choose-us-col why-choose-us-image-col'>
-          <img className='why-choose-us-image' src='https://cdn.pixabay.com/photo/2018/05/15/09/01/foodora-3402507__340.jpg' alt='' />
+          <img className='why-choose-us-image container' src='https://cdn.pixabay.com/photo/2018/05/15/09/01/foodora-3402507__340.jpg' alt='' />
         </div>
         <div className='why-choose-us-col why-choose-us-info-col'>
           <div className='why-choose-us-info why-choose-us-fastest-delivery'>
